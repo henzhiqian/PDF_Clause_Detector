@@ -1,3 +1,9 @@
+.flexbox-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .App {
   text-align: center;
 }
@@ -36,3 +42,17 @@
     transform: rotate(360deg);
   }
 }
+
+.box {
+  display: flex;
+  border: 1px black solid;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.box span {
+  margin: 0 5px;
+}
+
